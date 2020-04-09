@@ -4,9 +4,9 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: VoteProposalPool
-    network: mainnet
+    network: rinkeby
     source:
-      address: "0x12aa20de60ef8fdF51b3Bce43bAB5Ca07E0fF54b"
+      address: "0x5570b42DCd87a15Da67E2Db9Da458323A511c4E1"
       abi: VoteProposalPool
     mapping:
       kind: ethereum/events
